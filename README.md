@@ -3,7 +3,9 @@
 This gem convert 'true' and 'false' from string class to collectively TrueClass and FalseClass.
 
 ## How to Install
+~~~~
 gem install to-bool
+~~~~
 
 ## Usage
 ### Success case

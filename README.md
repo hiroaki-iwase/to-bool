@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/hiroaki-iwase/to-bool.svg)](https://travis-ci.org/hiroaki-iwase/to-bool)
 # to-bool
 This gem convert 'true' and 'false' from string class to collectively TrueClass and FalseClass.
 

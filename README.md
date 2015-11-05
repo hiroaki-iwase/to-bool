@@ -5,6 +5,7 @@ This gem convert 'true' and 'false' from string class to collectively TrueClass 
 gem install to-bool
 
 ## Usage
+### Success case
 You can convert by 'to_bool' method.
 ~~~~
 'true'.to_bool => TrueClass
@@ -14,6 +15,15 @@ In case of already Boolean Type, this method return as it is.
 ~~~~
 true.to_bool => TrueClass
 false.to_bool => FalseClass
+~~~~
+
+### Error Case
+* This gems sendback Error for other Object without True/False/String.
+* This gems sendback Error for irregular string type(not equal 'true' or 'false')
+~~~~
+'truetrue'.to_bool => ArgumentError
+''.to_bool => ArgumentError
+nil.to_bool => NoMethodError
 ~~~~
 
 ## Contributing
